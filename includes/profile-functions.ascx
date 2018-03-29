@@ -1,4 +1,4 @@
-﻿<% if Localization.GetEnabledLocales().Count > 1 Then  %>
+﻿<% if Localization.ActiveLanguagesByPortalID(PortalSettings.PortalId) > 1 Then  %>
     <ul class="list-inline functions"> 
         <li class="text-center">
             <a href="#"  id="showLanguages"><i class="material-icons">language</i></a>
